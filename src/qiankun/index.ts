@@ -2,16 +2,16 @@ import { registerMicroApps, start } from 'qiankun'
 
 registerMicroApps([
   {
-    name: 'react app',
-    entry: '//localhost:5000',
-    container: '#child-container-react',
-    activeRule: '/react'
+    name: 'vue1',
+    entry: '//localhost:3001',
+    container: '#vue1',
+    activeRule: '/vue1'
   },
   {
-    name: 'vue app',
-    entry: '//localhost:4000',
-    container: '#qiankunvue',
-    activeRule: '/vue'
+    name: 'vue2',
+    entry: '//localhost:3002',
+    container: '#vue2',
+    activeRule: '/vue2'
   }
 ])
 

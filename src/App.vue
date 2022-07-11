@@ -8,14 +8,14 @@ import { RouterLink, RouterView } from 'vue-router'
     <nav>
       <RouterLink to="/">主Home</RouterLink>
       <RouterLink to="/about">主About</RouterLink>
-      <RouterLink to="/react">子React</RouterLink>
-      <RouterLink to="/vue">子Vue</RouterLink>
+      <RouterLink to="/vue1">子Vue1</RouterLink>
+      <RouterLink to="/vue2">子Vue2</RouterLink>
     </nav>
   </header>
 
   <RouterView />
-  <div id="qiankunvue"></div>
-  <div id="child-container-react"></div>
+  <div id="vue1"></div>
+  <div id="vue2"></div>
 </template>
 
 <style>
