@@ -8,14 +8,12 @@ import { RouterLink, RouterView } from 'vue-router'
     <nav>
       <RouterLink to="/">主Home</RouterLink>
       <RouterLink to="/about">主About</RouterLink>
-      <RouterLink to="/vue1">子Vue1</RouterLink>
-      <RouterLink to="/vue2">子Vue2</RouterLink>
+      <RouterLink to="/app-vue3">子app-vue3</RouterLink>
     </nav>
   </header>
 
   <RouterView />
-  <div id="vue1"></div>
-  <div id="vue2"></div>
+  <div id="container"></div>
 </template>
 
 <style>

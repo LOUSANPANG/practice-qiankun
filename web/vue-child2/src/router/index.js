@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
 const router = createRouter({
-  history: createWebHistory(window.__POWERED_BY_QIANKUN__ ? '/vue2/' : '/'),
+  history: createWebHistory(window.__POWERED_BY_QIANKUN__ ? '/app-vue3/' : '/'),
   routes: [
     {
       path: '/',
